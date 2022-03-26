@@ -1,0 +1,4 @@
+github.com/adrium/goheif v0.0.0-20210309200126-b184a7b446fa h1:ISwtQHwIaKiwhFFmBOIib1o1jH3UvtKPnsEo45zsVj0=
+github.com/adrium/goheif v0.0.0-20210309200126-b184a7b446fa/go.mod h1:aKVJoQ0cc9K5Xb058XSnnAxXLliR97qbSqWBlm5ca1E=
+github.com/jdeng/goheif v0.0.0-20200323230657-a0d6a8b3e68f h1:jYkcRYsnnvPF07yn4XJx3k8duM4KDw3QYB3p8bUrk80=
+github.com/jdeng/goheif v0.0.0-20200323230657-a0d6a8b3e68f/go.mod h1:G7IyA3/eR9IFmUIPdyP3c0l4ZaqEvXAk876WfaQ8plc=
