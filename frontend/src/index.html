@@ -9,17 +9,24 @@
 </head>
 
 <body>
-  <div id="app" class="app">
-    <!-- <div class="logo"></div> -->
-    <div class="result">To convert, rename and delete (in this
-      order) all the HEICs in your download folder, just click: <button
-        class="btn" onclick="greet()">Make it so</button>
-    </div>
+  <main id="result">
+  </main>
+  <footer>
+    <p class="intro">Above: All the HEICs in your download folder. <button
+        class="btn" onclick="reload()">Refresh List</button>
+      <button class="btn btn-bold" onclick="greet()">Convert All to JPG
+        (parallelized)</button>
+    </p>
 
-    <hr />
-    <pre class="result-box" id="result">
-    </pre>
-  </div>
+    <p>
+      &copy; <a href=""
+        onclick="window.runtime.BrowserOpenURL('https://v01.io/?p=2669')">Klaus
+        Breyer</a>,
+      <a href=""
+        onclick="window.runtime.BrowserOpenURL('https://github.com/klausbreyer/all-the-heics')">Open
+        Source</a>.
+    </p>
+  </footer>
   <script src="/main.js"></script>
 </body>
 

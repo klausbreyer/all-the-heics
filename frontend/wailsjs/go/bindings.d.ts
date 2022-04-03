@@ -3,7 +3,8 @@ import * as models from './models';
 export interface go {
   "main": {
     "App": {
-		Greet():Promise<string>
+		List():Promise<Array<models.heic>>
+		WorkFile(arg1:string):Promise<boolean>
     },
   }
 

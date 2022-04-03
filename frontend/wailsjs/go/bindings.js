@@ -5,11 +5,19 @@ const go = {
   "main": {
     "App": {
       /**
-       * Greet
-       * @returns {Promise<string>}  - Go Type: string
+       * List
+       * @returns {Promise<Array<models.heic>>}  - Go Type: []main.heic
        */
-      "Greet": () => {
-        return window.go.main.App.Greet();
+      "List": () => {
+        return window.go.main.App.List();
+      },
+      /**
+       * WorkFile
+       * @param {string} arg1 - Go Type: string
+       * @returns {Promise<boolean>}  - Go Type: bool
+       */
+      "WorkFile": (arg1) => {
+        return window.go.main.App.WorkFile(arg1);
       },
     },
   },

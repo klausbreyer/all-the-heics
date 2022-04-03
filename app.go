@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 )
 
 // App struct
@@ -38,15 +37,12 @@ func (a *App) shutdown(ctx context.Context) {
 	// Perform your teardown here
 }
 
-// Greet returns a greeting for the given name
-func (a *App) Greet() string {
+// List returns a greeting for the given name
+func (a *App) List() []heic {
+	return ListHome()
+}
 
-	logs := HomeDir()
-
-	output := ""
-	for _, log := range logs {
-		output += fmt.Sprintf("%s\n", log)
-	}
-	output += "... Done."
-	return output
+// List returns a greeting for the given name
+func (a *App) WorkFile(path string) bool {
+	return WorkFile(path)
 }
